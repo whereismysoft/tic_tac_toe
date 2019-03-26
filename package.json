@@ -1,0 +1,32 @@
+{
+  "name": "react-redux-template",
+  "version": "1.0.0",
+  "description": "react redux template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whereismysoft/react-redux-template.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "template"
+  ],
+  "author": "Yury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whereismysoft/react-redux-template/issues"
+  },
+  "homepage": "https://github.com/whereismysoft/react-redux-template#readme",
+  "dependencies": {
+    "react": "^16.8.5",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
