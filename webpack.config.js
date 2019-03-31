@@ -37,22 +37,9 @@ module.exports = {
     },
     resolve: {
         // alias: {
-        //     ui: path.resolve(__dirname, 'src/components/ui'),
-        //     blocks: path.resolve(__dirname, 'src/components/blocks'),
-        //     actions: path.resolve(__dirname, 'src/actions'),
-        //     reducers: path.resolve(__dirname, 'src/reducers'),
-        //     utils: path.resolve(__dirname, 'src/utils'),
-        //     assets: path.resolve(__dirname, 'src/assets'),
+        //     [name]: path.resolve(__dirname, '[path]'),
         // }
     },
-    // devServer: {
-    //     inline: true,
-    //     hot: true,
-    //     publicPath: '/',
-    //     port: 9000,
-    //     historyApiFallback: true,
-    //     watchContentBase: true
-    // },
     plugins:[
         new HtmlWebpackPlugin({
             template: path.join(__dirname, '/src/index.html'),
