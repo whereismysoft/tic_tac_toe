@@ -5,4 +5,5 @@ plan is:
 - creat minimal necessary dependencies
 - write simple react component
 - write testing files
-- setup dev server (???) 
+- setup dev server (???)
+- add react storybook (???) https://github.com/storybooks/addon-jsx 
