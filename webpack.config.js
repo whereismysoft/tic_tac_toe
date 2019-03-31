@@ -4,11 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     // webpack 4 takes '/src/index.js' by default
     // entry: path.join(__dirname, '/src/index.js'),
-
     // output file by default is './dist/main.js'
-    output: {
-        publicPath: "/"
-    },
     module:{
         rules:[
             {
@@ -16,7 +12,7 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: 'babel-loader',
                 options: {
-                    presets: ['@babel/preset-env']
+                    presets: ['@babel/preset-env', "@babel/preset-react"]
                 }
             },
             {
