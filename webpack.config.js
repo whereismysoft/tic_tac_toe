@@ -39,6 +39,15 @@ module.exports = {
         //     [name]: path.resolve(__dirname, '[path]'),
         // }
     },
+    devServer: {
+        inline: true,
+        hot: true,
+        publicPath: '/',
+        port: 9000,
+        historyApiFallback: true,
+        watchContentBase: true,
+        open: true
+    },
     plugins:[
         new HtmlWebpackPlugin({
             template: path.join(__dirname, '/src/index.html'),
