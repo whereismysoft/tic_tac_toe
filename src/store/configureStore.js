@@ -7,7 +7,7 @@ import reducer from '../reducers/index.js'
 
 export default function configureStore() {
 	const store = createStore(
-		// reducer,
+		reducer,
 		composeWithDevTools(applyMiddleware(thunk))
 	);
 
