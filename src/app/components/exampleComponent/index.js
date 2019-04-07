@@ -4,6 +4,8 @@ import * as constants from 'constants';
 
 import ExampleComponent from './component';
 
+console.log('[CONSTANTS]', constants);
+
 const MapStateToProps = state => {
 	return {
 		count: state.count
@@ -12,7 +14,7 @@ const MapStateToProps = state => {
 
 const MapDispatchToProps = (dispatch) => {
 	return {
-        // unshiftLastCard: () => dispatch(createAction(constants.UNSHIFT_LAST_CARD)),
+        increaseCount: () => dispatch(createAction(constants.INCREASE_COUNT))
 	}
 }
 

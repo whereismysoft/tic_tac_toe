@@ -1,4 +1,4 @@
-import * as constants from '../constants';
+import constants from 'constants';
 
 const initialState = {
     data: [],
@@ -7,6 +7,13 @@ const initialState = {
 
 export default function reducer(state = initialState, action) {
     switch (action.type) {
+        case(constants.INCREASE_COUNT): {
+            return {
+                ...state,
+                count: state.count + 1
+            }
+        };
+
         default:
             return state;
     }
