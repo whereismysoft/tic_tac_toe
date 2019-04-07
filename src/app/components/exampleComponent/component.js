@@ -4,7 +4,7 @@ export default class ExampleComponent extends Component {
     render() {
         return (
             <div>
-                hello example world!
+                count: {this.props.count}
             </div>
         )
     }

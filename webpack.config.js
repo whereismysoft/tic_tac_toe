@@ -35,9 +35,10 @@ module.exports = {
         ]
     },
     resolve: {
-        // alias: {
-        //     [name]: path.resolve(__dirname, '[path]'),
-        // }
+        alias: {
+            actions: path.resolve(__dirname, 'src/actions'),
+            constants: path.resolve(__dirname, 'src/constants')
+        }
     },
     devServer: {
         inline: true,

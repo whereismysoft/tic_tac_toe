@@ -1,7 +1,8 @@
 import * as constants from '../constants';
 
 const initialState = {
-    data: []
+    data: [],
+    count: 0
 }
 
 export default function reducer(state = initialState, action) {

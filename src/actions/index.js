@@ -1,3 +1,3 @@
-export function exampleAction(constant, data) {
+export function createAction(constant, data) {
     return { type: constant, payload: data }
-}
+  }
