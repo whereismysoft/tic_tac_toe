@@ -1,17 +1,12 @@
-import React, { Component } from 'react'
-import { setTimeout } from 'timers';
+import React, { Component } from 'react';
 
 export default class ExampleComponent extends Component {
-    componentDidMount() {
-        setTimeout(
-            this.props.increaseCount,
-            2000
-        )
-    }
     render() {
+        const { increaseCount } = this.props;
         return (
             <div>
-                count: {this.props.count}
+                <div>count: {this.props.count}</div>
+                <button onClick={increaseCount}>increase count</button>
             </div>
         )
     }
