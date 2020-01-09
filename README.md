@@ -2,6 +2,8 @@ plan is:
 - create simple structure
 - setup webpack config
     - create configs for dev and prod modes
+    - add aliases for routes (app, constants, actions, reducers, ??assets)
+- create assets folder with global styles
 - creat minimal necessary dependencies
 - write simple react component
 - write testing files
