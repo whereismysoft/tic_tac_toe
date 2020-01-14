@@ -1,5 +1,9 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
+const CONFIGURATION_VARIABLES = require('./configuration/variables')
+
+console.log('[CONFIGURATION_VARIABLES]', CONFIGURATION_VARIABLES);
 
 module.exports = {
     // webpack 4 takes '/src/index.js' by default
@@ -50,6 +54,7 @@ module.exports = {
         open: true
     },
     plugins:[
+        new webpack.DefinePlugin(CONFIGURATION_VARIABLES),
         new HtmlWebpackPlugin({
             template: path.join(__dirname, '/src/index.html'),
             inject: 'body'
