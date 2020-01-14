@@ -12,4 +12,5 @@ it contains now:
     - dev config
     - dev server
     - aliases for actions, constansts folders
+    - global variables config
 - connected redux devtools
