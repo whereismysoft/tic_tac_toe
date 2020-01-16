@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whereismysoft/react-redux-template.git"
+    "url": "git@github.com:whereismysoft/tic_tac_toe.git"
   },
   "keywords": [
     "react",
