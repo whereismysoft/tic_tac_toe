@@ -1,5 +1,5 @@
 {
-  "name": "ti_tac_toe",
+  "name": "tic_tac_toe",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,10 +19,6 @@
   ],
   "author": "Yury",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/whereismysoft/react-redux-template/issues"
-  },
-  "homepage": "https://github.com/whereismysoft/react-redux-template#readme",
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
