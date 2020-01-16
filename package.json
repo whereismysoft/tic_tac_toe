@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-template",
+  "name": "ti_tac_toe",
   "version": "1.0.0",
-  "description": "react redux template",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
